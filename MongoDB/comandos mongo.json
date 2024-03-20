@@ -1,0 +1,58 @@
+show dbs
+
+use db1
+
+use dbs
+
+db.create collection()
+
+use  db1
+show.Collections
+
+db.empleado.insertOne({nombre:'ramon',edad:'Lopez'})
+
+db.empleado.find()
+
+db.empleado.find({})
+
+db.dropDatabase()
+
+db.empleado.insertMany([{
+        ... nombre:'Hermeregildo', 
+        
+    ..edad:67
+    
+    ... },
+    
+    ... {
+        
+        ... nombre:'Soy la vaca del corral',
+        
+        ... edad:14,
+        
+        ... sexo:'Mujer'
+        
+        ... }, 
+        
+        ... {
+            
+            ... nombre:'Romulo',
+            
+            ... edad:40,
+            
+            ... nacionalidad:'Nigeriano'
+            
+            ... }, 
+            
+            ... {
+                
+                ... nombre:'Cristian Andres',
+                
+                ... localidad:'San Miguel de las Piedras',
+                
+                ... nacionalidad:'Aleman',
+                
+                ... edad:'Esta morro'
+                
+                ... ,
+}])
