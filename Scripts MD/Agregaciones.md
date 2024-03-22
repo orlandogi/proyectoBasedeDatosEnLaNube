@@ -1,7 +1,20 @@
-
 # Agregaciones
 
+Las agregaciones en MongoDB permiten realizar operaciones avanzadas de procesamiento de datos en colecciones.
+
 ---
+
+### $group
+Este operador se utiliza para agrupar documentos por un campo específico y realizar operaciones de agregación en los datos agrupados, como sumas, promedios o contar el número de documentos en cada grupo.
+
+### $set
+
+El operador $set se utiliza para agregar nuevos campos o modificar campos existentes en documentos durante una agregación. Esto permite realizar cálculos o transformaciones en los datos antes de pasar al siguiente paso de la agregación.
+
+### $out
+El operador $out se utiliza para escribir los resultados de una operación de agregación en una nueva colección. Esto es útil cuando deseas almacenar los resultados de una operación de agregación para su uso posterior o análisis adicional.
+
+##Ejemplos
 
 Las siguientes agregaciones constan de dos etapas:
 
@@ -57,7 +70,7 @@ Las siguientes agregaciones constan de dos etapas:
 
 En el siguiente caso aumentamos de nivel a 3 etapas:
 
-```json
+```javascript
 [
   {
     "$group": {
