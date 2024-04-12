@@ -1,4 +1,4 @@
-![image](https://github.com/orlandogi/proyectoBasedeDatosEnLaNube/assets/132794853/6595bcf5-956c-4a80-bf36-55df2799a531)# Practica. Implementing Dimensions and Fact Tables
+# Practica. Implementing Dimensions and Fact Tables
 
 En esta practica se creo un almacen de datos utilizando la base de datos TK463DW
 ---
